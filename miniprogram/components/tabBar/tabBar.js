@@ -13,19 +13,19 @@ Component({
     data: {
         list: [{
             "text": "事项",
-            "iconPath": "../../images/tabbar-file-common.png",
-            "selectedIconPath": "../../images/tabbar-file-common-filling.png"
-        },
-        {
+            "iconPath": "http://img.winnshier.cn/tabbar-file-common.png",
+            "selectedIconPath": "http://img.winnshier.cn/tabbar-file-common-filling.png"
+          },
+          {
             "text": "日程",
-            "iconPath": "../../images/tabbar-layout.png",
-            "selectedIconPath": "../../images/tabbar-layout-filling.png"
-        },
-        {
+            "iconPath": "http://img.winnshier.cn/tabbar-layout.png",
+            "selectedIconPath": "http://img.winnshier.cn/tabbar-layout-filling.png"
+          },
+          {
             "text": "我的",
-            "iconPath": "../../images/tabbar-user.png",
-            "selectedIconPath": "../../images/tabbar-user-filling.png"
-        }]
+            "iconPath": "http://img.winnshier.cn/tabbar-user.png",
+            "selectedIconPath": "http://img.winnshier.cn/tabbar-user-filling.png"
+          }]
     },
 
     /**
