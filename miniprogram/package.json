@@ -1,0 +1,22 @@
+{
+  "name": "okr",
+  "version": "1.0.0",
+  "description": "个人okr计划小程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winnshier/miniprogram-okr.git"
+  },
+  "author": "winnshier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winnshier/miniprogram-okr/issues"
+  },
+  "homepage": "https://github.com/winnshier/miniprogram-okr#readme",
+  "dependencies": {
+    "miniprogram-sm-crypto": "^0.2.1"
+  }
+}
