@@ -1,1 +1,4 @@
 /* components/tabBar.wxss */
+.my-tabBar {
+    padding-top: 20px;
+}

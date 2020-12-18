@@ -3,6 +3,7 @@ Component({
     /**
      * 组件的属性列表
      */
+    
     properties: {
 
     },
@@ -14,17 +15,17 @@ Component({
         list: [{
             "text": "事项",
             "iconPath": "http://img.winnshier.cn/tabbar-file-common.png",
-            "selectedIconPath": "http://img.winnshier.cn/tabbar-file-common-filling.png"
+            "selectedIconPath": "http://img.winnshier.cn/file-common-filling.png"
           },
           {
             "text": "日程",
             "iconPath": "http://img.winnshier.cn/tabbar-layout.png",
-            "selectedIconPath": "http://img.winnshier.cn/tabbar-layout-filling.png"
+            "selectedIconPath": "http://img.winnshier.cn/layout-filling.png"
           },
           {
             "text": "我的",
             "iconPath": "http://img.winnshier.cn/tabbar-user.png",
-            "selectedIconPath": "http://img.winnshier.cn/tabbar-user-filling.png"
+            "selectedIconPath": "http://img.winnshier.cn/user-filling.png"
           }]
     },
 

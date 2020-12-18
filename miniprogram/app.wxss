@@ -1,4 +1,7 @@
 /**app.wxss**/
+
+@import "./comm.wxss";
+
 .container {
   display: flex;
   flex-direction: column;
@@ -16,6 +19,14 @@ button:focus{
 
 button::after{
   border: none;
+}
+
+/* 主题色 */
+.c167 {
+  color: #1677ff;
+}
+.c8bb {
+  color: #8bbbff;
 }
 
 
@@ -154,3 +165,4 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+

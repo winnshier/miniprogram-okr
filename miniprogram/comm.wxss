@@ -1,0 +1,3 @@
+.my-tabBar .weui-bar__item_on .weui-tabbar__label{
+    color: #1677ff;
+}
