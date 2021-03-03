@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "事项",
+  "usingComponents": {
+    "my-tab-bar": "../../components/tabBar/tabBar"
+  }
+}

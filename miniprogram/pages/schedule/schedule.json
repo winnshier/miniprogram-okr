@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "日程",
+  "usingComponents": {
+    "my-tab-bar": "../../components/tabBar/tabBar"
+  }
+}

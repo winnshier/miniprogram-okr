@@ -1,5 +1,6 @@
 // components/tabBar.js
-Component({
+import create from '../../utils/create'
+create({
     /**
      * 组件的属性列表
      */
@@ -34,7 +35,31 @@ Component({
      */
     methods: {
         tabChange(e) {
-            console.log(e)
+          console.log(e);
+          if (e.detail.index || e.detail.index == 0) {
+            this.store.data.tabBar = e.detail.index
+            console.log(e.detail.index);
+            switch (e.detail.index) {
+              case 0:
+                console.log('sss');
+                wx.redirectTo({
+                  url: '../../pages/matter/matter',
+                })
+                break;
+              case 1:
+                console.log('ssss');
+                wx.redirectTo({
+                  url: '../../pages/schedule/schedule',
+                })
+                break;
+              case 2:
+                console.log('sssdd');
+                wx.redirectTo({
+                  url: '../../pages/my/my',
+                })
+                break;
+            }
+          }
         }
     }
 })

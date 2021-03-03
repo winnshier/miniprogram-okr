@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/matter/matter",
+    "pages/schedule/schedule",
+    "pages/my/my",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -15,10 +18,10 @@
     "pages/im/room/room"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "个人okr计划",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",

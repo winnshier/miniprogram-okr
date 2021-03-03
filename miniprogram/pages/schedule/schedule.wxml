@@ -1,0 +1,4 @@
+<!--miniprogram/pages/schedule/schedule.wxml-->
+<view>
+  <my-tab-bar />
+</view>

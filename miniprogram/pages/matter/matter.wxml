@@ -1,0 +1,4 @@
+<!-- miniprogram/pages/matter/matter.wxml -->
+<view>
+  <my-tab-bar />
+</view>
