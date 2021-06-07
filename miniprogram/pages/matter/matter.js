@@ -1,15 +1,42 @@
 // miniprogram/pages/matter/matter.js
 import store from '../../store'
 import create from '../../utils/create'
+
+// 引入插件安装器
+import plugin from '../..//components/calendar/plugins/index'
+
+// 设置代办
+import todo from '../../components/calendar/plugins/todo'
+// 禁用/启用可选状态
+import selectable from '../../components/calendar/plugins/selectable'
+// 农历相关功能
+import solarLunar from '../../components/calendar/plugins/solarLunar/index'
+import holidays from '../../components/calendar/plugins/holidays/index'
+// import preset from '../../components/calendar/plugins/preset/index'
+import timeRange from '../../components/calendar/plugins/time-range'
+
+plugin
+  .use(todo)
+  .use(solarLunar)
+  .use(selectable)
+  .use(holidays)
+  .use(timeRange)
+
 create(store, {
 
     /**
      * 页面的初始数据
      */
     data: {
-        a: 'a',
-        b: 'as',
-        c: 'ad',
+        calendarConfig: {
+            // multi: true,
+            // theme: 'elegant',
+            markToday: '今',
+            showLunar: true,
+            showFestival: true,
+            showHolidays: true,
+            // chooseAreaMode: true,
+        }
     },
 
     /**
@@ -23,14 +50,17 @@ create(store, {
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady: function () {
-        console.log(this.store);
+        // console.log(this.store);
+        // const calendar = this.selectComponent('#calendar').calendar
+        // console.log(calendar);
+        // calendar.chooseDateArea(['2021-06-20', '2021-06-30'])
     },
 
     /**
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
-
+        
     },
 
     /**
